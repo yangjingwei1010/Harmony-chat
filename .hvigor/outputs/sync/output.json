@@ -1,0 +1,177 @@
+{
+  "ohos-module-entry": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/build",
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/src/main",
+        "RESOURCES_PATH": [
+          "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/build/default/cache/default/default@CompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/build/default/cache/default/default@CompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/build/default/intermediates/hap_metadata/default/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/build/default/intermediates/source_map/default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      },
+      "ohosTest": {
+        "SOURCE_ROOT": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/src/ohosTest",
+        "RESOURCES_PATH": [
+          "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/src/ohosTest/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/build/default/outputs/ohosTest",
+          "INTERMEDIA_PATH": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/build/default/intermediates/loader_out/ohosTest",
+          "JS_LITE_ASSETS_PATH": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/build/default/intermediates/loader_out_lite/ohosTest",
+          "RES_PATH": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/build/default/intermediates/res/ohosTest",
+          "RES_PROFILE_PATH": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/build/default/intermediates/res/ohosTest/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/build/default/cache/ohosTest/ohosTest@OhosTestCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/build/default/cache/ohosTest/ohosTest@OhosTestCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/build/default/intermediates/loader/ohosTest/loader.json",
+          "MANIFEST_JSON": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/build/default/intermediates/manifest/ohosTest",
+          "OUTPUT_METADATA_JSON": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/build/default/intermediates/hap_metadata/ohosTest/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry/build/default/intermediates/source_map/ohosTest"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/build",
+    "BUNDLE_NAME": "com.example.wechat03",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/build/outputs/default"
+    },
+    "MODULES": [
+      {
+        "name": "entry",
+        "srcPath": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03/entry",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03"
+      }
+    ],
+    "PROFILE_OPT": {
+      "app": {
+        "signingConfigs": [
+          {
+            "name": "default",
+            "type": "HarmonyOS",
+            "material": {
+              "storePassword": "0000001C113DE2EF722C99E11541893F1F369E476A7A0F2D62506D5B17DC4A9443B00D37FFBD100CBD6707F7",
+              "certpath": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/key/wechat/WeChat.cer",
+              "keyAlias": "Wechat",
+              "keyPassword": "0000001CD08DB982867123042AC138DBA2247B62768711D86B7445F2A507525F684EF324EA1E1F7138E0A5BA",
+              "profile": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/key/wechat/Wehcat03Debug.p7b",
+              "signAlg": "SHA256withECDSA",
+              "storeFile": "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/key/wechat/Wechat.p12"
+            }
+          }
+        ],
+        "products": [
+          {
+            "name": "default",
+            "signingConfig": "default",
+            "compatibleSdkVersion": "4.1.0(11)",
+            "runtimeOS": "HarmonyOS"
+          }
+        ],
+        "buildModeSet": [
+          {
+            "name": "debug"
+          },
+          {
+            "name": "release"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "name": "entry",
+          "srcPath": "./entry",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "CONFIG_PROPERTIES": {
+      "enableSignTask": true,
+      "skipNativeIncremental": false,
+      "hvigor.keepDependency": true
+    },
+    "OVERALL_PROJECT_PATHS": [
+      "/Users/weiqingyuan/Desktop/Harmony/Harmony/mydemo/kecheng/Wechat03"
+    ],
+    "BUILD_CACHE_DIR": ""
+  },
+  "version": 1
+}
